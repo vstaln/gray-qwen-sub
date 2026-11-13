@@ -46,6 +46,7 @@ fn manifest() -> Value {
             &["models", "chat"], CACHE_TTL_SECS,
         )],
         "commands": ["/qwen"],
+        "command_descriptions": {"/qwen": "switch to Qwen models"},
         "subcommands": ["qwen"],
     })
 }
